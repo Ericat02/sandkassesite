@@ -69,14 +69,24 @@ h2 {
 }
 
 .tekst-ovenpå {
+  display: flex;
+  align-items: center;
   background-color: #ff7043;
   font-size: 2rem;
   width: 35rem;
   height: 20rem;
-  text-align: center;
-  align-items: center;
   color: #fff8e1;
   border-radius: 1rem;
+}
+
+#billede_sektion {
+  display: grid;
+  grid-template-columns:;
+  img {
+    align-items: center;
+    max-width: 200px;
+    height: auto;
+  }
 }
 
 footer {

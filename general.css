@@ -15,9 +15,43 @@
     font-size: 1.5rem;
   }
 
-  #billede_sektion {
-    img {
-      max-width: 200px;
-    }
+  /* #billede_sektion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
   }
+
+
+  .img4 {
+    grid-row: 1 / 3; 
+    grid-column: 1 / 2;
+  }
+
+
+  .img6 {
+    grid-column: 2 / 4; 
+    grid-row: 1 / 2;
+  }
+
+ 
+  .img5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+
+  .img7 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+ 
+  .img{
+    background: #ddd;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
 }
