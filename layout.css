@@ -81,9 +81,7 @@ h2 {
 
 #billede_sektion {
   display: grid;
-  grid-template-columns:;
   img {
-    align-items: center;
     max-width: 200px;
     height: auto;
   }
